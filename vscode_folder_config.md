@@ -26,3 +26,11 @@
 7. Compiled Main file appears in project tree.
 8. Right click on compiled Main, select "Open in intergrated terminal"
 9. In Terminal, type: "./main" to run executable 
+
+## Step 3 - Configure Debugger
+
+1. Select main.cpp
+2. Filemenu >> Run >> Add Configuration
+3. Select C++ (GDB/LLDB), then g++ -Build and debug active file
+4. launch.json is created in .vscode folder
+5. in "configurations", change "type":"cppdbg" to "lldb"
